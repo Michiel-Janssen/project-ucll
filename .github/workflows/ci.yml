@@ -33,6 +33,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: eciyo/besturingssytemenlabo6
         tags: Michiel-Janssen/project-ucll:latest
+        file: ./dockerfile
         
         
   release:
