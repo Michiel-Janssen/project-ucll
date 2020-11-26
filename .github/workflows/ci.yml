@@ -31,6 +31,7 @@ jobs:
     - name: Push to Docker Hub
       uses: docker/build-push-action@v1
       with:
+        push: true
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: eciyo/besturingssytemenlabo6
