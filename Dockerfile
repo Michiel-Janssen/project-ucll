@@ -1,3 +1,5 @@
+https://dzone.com/articles/a-dockerfile-for-maven-based-github-projects
+
 FROM alpine/git
 RUN mdkir -p /app
 WORKDIR /app
